@@ -1,8 +1,6 @@
 $( document ).ready(function() {
 
-    // Your code here.
-
-
+var name = prompt("What's Your Name:")
 var correct_number = Math.floor((Math.random()*10)+1);
 
 while (number != correct_number)
